@@ -1,0 +1,41 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
+    bigdecimal (3.1.2)
+    coinbase (4.2.2)
+    coinbase-pro (0.4.0)
+      bigdecimal
+      em-http-request
+      faye-websocket
+    cookiejar (0.3.3)
+    em-http-request (1.1.7)
+      addressable (>= 2.3.4)
+      cookiejar (!= 0.3.1)
+      em-socksify (>= 0.3)
+      eventmachine (>= 1.0.3)
+      http_parser.rb (>= 0.6.0)
+    em-socksify (0.3.2)
+      eventmachine (>= 1.0.0.beta.4)
+    eventmachine (1.2.7)
+    faye-websocket (0.11.1)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.5.1)
+    http_parser.rb (0.8.0)
+    parallel (1.22.1)
+    public_suffix (5.0.0)
+    websocket-driver (0.7.5)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  coinbase (~> 4.2)
+  coinbase-pro (~> 0.4.0)
+  parallel (~> 1.22)
+
+BUNDLED WITH
+   2.3.5
